@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1800' height='800' preserveAspectRatio='none' viewBox='0 0 1800 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1800' height='800' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1830 800L0 800 L0 466.24Q13.75 390%2c 90 403.75Q183.91 347.66%2c 240 441.58Q313.88 425.46%2c 330 499.34Q358.64 377.98%2c 480 406.61Q561.99 338.6%2c 630 420.59Q687.17 387.76%2c 720 444.93Q808.78 383.71%2c 870 472.49Q978.08 430.57%2c 1020 538.65Q1050.39 479.04%2c 1110 509.43Q1127.05 436.48%2c 1200 453.52Q1292.18 395.7%2c 1350 487.89Q1392.87 380.76%2c 1500 423.63Q1591.46 365.09%2c 1650 456.55Q1705.47 422.02%2c 1740 477.49Q1801.98 449.47%2c 1830 511.45z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1890 800L0 800 L0 631.99Q24.49 506.48%2c 150 530.96Q233.95 464.91%2c 300 548.86Q357.08 455.94%2c 450 513.03Q577.28 490.31%2c 600 617.59Q654.33 521.92%2c 750 576.26Q791.18 467.44%2c 900 508.63Q951.76 470.39%2c 990 522.16Q1087.08 469.24%2c 1140 566.32Q1228.47 504.79%2c 1290 593.25Q1331.9 485.15%2c 1440 527.05Q1530.88 467.93%2c 1590 558.81Q1674.6 493.41%2c 1740 578.01Q1843.57 531.58%2c 1890 635.15z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1890 800L0 800 L0 716.43Q66.04 632.47%2c 150 698.52Q168.8 627.32%2c 240 646.12Q292.9 549.02%2c 390 601.92Q475.71 537.63%2c 540 623.33Q645.59 578.92%2c 690 684.51Q720.94 625.45%2c 780 656.4Q831.9 558.3%2c 930 610.19Q1042.46 572.65%2c 1080 685.12Q1101.3 616.42%2c 1170 637.72Q1229.8 547.52%2c 1320 607.32Q1394.44 591.76%2c 1410 666.2Q1476.14 642.34%2c 1500 708.48Q1588.07 646.55%2c 1650 734.62Q1696.5 631.13%2c 1800 677.63Q1815.89 603.52%2c 1890 619.42z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1890 800L0 800 L0 769.49Q70.9 750.39%2c 90 821.29Q142.88 784.17%2c 180 837.05Q216.88 723.93%2c 330 760.81Q357.05 697.86%2c 420 724.91Q454.7 669.61%2c 510 704.3Q560.08 664.38%2c 600 714.46Q703.72 728.18%2c 690 831.9Q684.35 736.25%2c 780 730.6Q844.6 645.2%2c 930 709.8Q1010.93 700.73%2c 1020 781.66Q1058.94 730.6%2c 1110 769.53Q1164.99 674.52%2c 1260 729.51Q1371.14 690.65%2c 1410 801.8Q1468.62 770.41%2c 1500 829.03Q1536.65 715.68%2c 1650 752.34Q1687.24 699.58%2c 1740 736.81Q1844.48 691.29%2c 1890 795.78z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1800' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+    background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper{
+    width: 605px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+}
+.wrapper header{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+}
+.quote-area i{
+    font-size: 15px;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0 ;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px ;
+}
+.content .author{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+    
+}
+
+
+
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .features{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid #356CB1;
+    border-radius: 50%;
+    display: flex;
+    color: #356CB1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.features ul li:hover{
+    color: #fff;
+    background-color: #356CB1;
+}
+.features button{
+    border: none;
+    outline: none;
+    background-color: #356CB1;
+    color: #fff;
+    padding: 13px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
